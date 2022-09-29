@@ -1,0 +1,117 @@
+.banner {
+    background: url("img/key.png")
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+  }
+
+  .about {
+    background: url("img/abut.jpg")
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: black;
+}
+
+  .skill {
+    background: url("img/skillatar.jpeg")
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 100%;
+    padding-bottom: 100%;
+    color: #fff;
+  }
+
+  .project {
+    background: url("img/aboutltr.jpg")
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: black;
+  }
+
+  .contact {
+    background: url("img/contact.png") no-repeat
+      center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+  }
+
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+  }
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+
+  .social-network a.ig:hover {
+    background-color: #e613a6;
+  }
+  .social-network a.fb:hover {
+    background-color:#3B5998;
+  }
+  .social-network a.twit:hover {
+    background-color:#33ccff;
+  }
+  .social-network a.ytb:hover {
+    background-color:#f11c1c;
+  }
+  .social-network a.gthb:hover {
+    background-color:#350738;
+  }
+  .social-network a.Rss:hover i, .social-network a.fb:hover i, .social-network a.twit:hover i,
+  .social-network a.google:hover i, .social-network a.Linkedin:hover i {
+    color: #fff;
+  }
+  a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+  }
+   
+  .social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+  }
+  .social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+  }
+   
+  .social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .social-circle i {
+    color: rgb(0, 0, 0);
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+   
